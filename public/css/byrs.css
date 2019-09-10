@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.current{
+    height:60px;
+    line-height:60px;
+    border-bottom:1px solid #DBDBDB;
+    margin-bottom:10px;
+}
+.current .choice{
+    position: relative;
+    line-height:40px;
+}
+.current{
+    height:60px;
+    line-height:60px;
+    border-bottom:1px solid #DBDBDB;
+    margin-bottom:10px;
+}
+.current .choice{
+    position: relative;
+    line-height:40px;
+}
+.current p.default.on {
+    background: url(../img/up.jpg) no-repeat 140px center;
+}
+.current ul.select{
+    position: absolute;
+    left:0;
+    top:40px;
+    border:1px solid #dbdbdb;
+    margin-top: 10px;
+    display: none;
+    z-index: 30;
+}
+.current ul.select li{
+    border-top:1px solid #DBDBDB;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    padding-left:10px;
+    width:160px;
+    background: #fff;
+}
+.current ul.select li:hover{
+    background: #c10000;
+    color:#fff;
+}
+
+.current p.default{
+    height:40px;
+    margin-top:10px;
+    border:1px solid #dbdbdb;
+    cursor: pointer;
+    padding-left:10px;
+    width:160px;
+    background: url(../img/down.jpg) no-repeat 140px center;
+}
+
+
+
+.proList{
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+.proList > li{
+    position: relative;
+    float: left;
+    width:253px;
+    margin-top:15px;
+    padding:10px;
+    border:1px solid #fff;
+}
+.proList > li img{
+    width:268px;
+    height:268px;
+}
+.proList > li dl dd{
+    height: 30px;
+    line-height: 30px;
+}
+.proList > li dl dd:last-child,
+.paintList a dl dd:last-child{
+    color: #C10000;
+    font-size:16px;
+}
+.proList > li p{
+    position: absolute;
+    left:50%;
+    top:60%;
+    width:200px;
+    height:45px;
+    margin-left:-100px;
+    margin-top:-25px;
+    text-align: center;
+    line-height:45px;
+    border:1px solid #000;
+    background: rgba(255,255,255,0.5);
+    color:#262626;
+}

@@ -1,0 +1,19 @@
+.order .orderCon {
+    margin-top: 30px;
+}
+.order .orderCon h3 {
+    height: 48px;
+    line-height: 48px;
+    font-weight: normal;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 16px;
+}
+.order .orderCon .orderL .addre.on {
+    border: 2px solid #C10000;
+}
+.order .orderCon .orderL .addre {
+    width: 325px;
+    margin: 20px 20px 20px 0;
+    border: 2px solid #dbdbdb;
+    cursor: pointer;
+}

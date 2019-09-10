@@ -1,0 +1,58 @@
+
+
+.banner img {
+    width: 100%;
+}
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+section h3 {
+    text-align: center;
+    margin: 35px 0;
+}
+.paintList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.paintList a {
+    display: block;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #262626;
+}
+.paintList a dl dd {
+    padding-left: 10px;
+}
+.paintList a dl dd:last-child {
+    color: #C10000;
+    font-size: 16px;
+}
+.paintList a img {
+    display: block;
+    margin: 0 auto;
+}
+.paintList .sec {
+    flex: 2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.paintList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.last {
+    flex-direction: column;
+}
+.last > p {
+    display: flex;
+    justify-content: space-between;
+}

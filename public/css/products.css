@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.address {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.address a,
+.address span {
+    float: left;
+    color: #777;
+}
+
+.address span {
+    margin: 0 20px;
+}
+
+.address a.on {
+    color: #262626;
+}
+
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.detCon .proImg {
+    width: auto;
+}
+
+.smallImg {
+    margin-top: 20px;
+}
+.detCon .smallImg > img {
+    width: 85px;
+    height: 85px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.detCon .intro {
+    width: 500px;
+}
+
+.detCon .intro .title h4 {
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 22px;
+}
+.detCon .intro .title p {
+    margin: 10px 0;
+    color: #777;
+}
+.detCon .intro .title span {
+    font-size: 22px;
+    color: #C10000;
+}
+.detCon .intro .proIntro {
+    width: auto;
+}
+
+.proIntro {
+    width: 350px;
+    padding: 20px 10px;
+    margin: 35px 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.proIntro > p {
+    height: 30px;
+    line-height: 30px;
+}
+.proIntro .smallImg {
+    margin: 20px 0 35px;
+    position: relative;
+}
+.proIntro .smallImg p {
+    border: 1px solid #fff;
+}
+.proIntro .smallImg img {
+    width: 45px;
+}
+.proIntro >p {
+    height: 30px;
+    line-height: 30px;
+}
+.proIntro .smallImg {
+    margin: 20px 0 35px;
+    position: relative;
+}
+
+.proIntro .smallImg p{
+    padding: 2px;
+    margin-right: 20px;
+    border:1px solid #fff;
+}
+
+.proIntro > p span {
+    color: #C10000;
+}
+.proIntro .num {
+    margin-top: 20px;
+}
+.proIntro .num img {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+.proIntro .num span {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+.clearfix {
+    zoom: 1;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #262626;
+}
+.btns p.buy, .changeBtn p.buy {
+    background: #C10000;
+    color: #fff;
+}
+.btns p, .changeBtn p {
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.btns p.cart, .changeBtn p.cart {
+    border: 1px solid #000;
+}
+
+.introMsg {
+    margin-top: 50px;
+}
+.msgL {
+    width: 945px;
+}
+
+.msgL .msgTit{
+    border-top:1px solid #dbdbdb;
+    border-bottom:1px solid #dbdbdb;
+    height:40px;
+    line-height:40px;
+    margin-bottom: 30px;
+}
+.msgL .msgTit a.on{
+    border-bottom:1px solid #c10000;
+}
+.msgL .msgAll .eva{
+    display: none;
+}
+.per{
+    border-bottom:1px dashed #dbdbdb;
+    margin-bottom:10px;
+}
+.msgL .msgTit a{
+    float:left;
+    width:90px;
+    text-align: center;
+    cursor: pointer;
+}
+.msgR{
+    border:1px solid #dbdbdb;
+}
+.msgR h4{
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    background: #f6f6f6;
+    font-weight: normal;
+}
+.seeList{
+    padding:20px;
+}
+.seeList a,.paintList a{
+    display: block;
+    margin-bottom: 20px;
+}
+.seeList dl,
+.likeList dl,
+.paintList dl{
+    line-height: 30px;
+}
+
+
+
+
+.like{
+    min-width:1423px;
+    background: #fbfbfb;
+    margin: 30px 0;
+}
+.like h4{
+    text-align: center;
+    height:70px;
+    line-height:70px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.like{
+    min-width:1423px;
+    background: #fbfbfb;
+    margin: 30px 0;
+}
+.like h4{
+    text-align: center;
+    height:70px;
+    line-height:70px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.imgCon{
+    overflow: hidden;
+    /*width:1123px;*/
+    width:81.5%;
+    min-width: 1160px;
+    margin: 0 auto;
+}
+.likeList{
+    width:9999px;
+    padding-bottom:30px;
+}
+.likeList div{
+    float: left;
+    /*width:1160px;*/
+}
+.likeList div a{
+    float: left;
+    margin-right:20px;
+    width:216px;
+    /*width:18%;*/
+}
+.likeList a img{
+    width:100%;
+}
+.likeList a.last{
+    margin-right:0px;
+}
+
+.bottom {
+    position: relative;
+}
+.bottom span.prev {
+    left: 30px;
+}
+.bottom span.next {
+    right: 30px;
+}
+.bottom span.prev img, .bottom span.next img {
+    width: 100%;
+}
+.bottom span.prev,.bottom span.next{
+    position: absolute;
+    top:50%;
+    margin-top: 2660px;
+    width:50px;
+    cursor: pointer;
+}
+
+.likeList dl dd:last-child{
+    color:#c10000;
+    font-size: 14px;
+}
+.xxCon a{
+    display: block;
+    margin-bottom: 30px;
+}
+.xxCon img{
+    display: block;
+    width:100%;
+}
+
+

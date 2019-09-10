@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+.banner img {
+    width: 100%;
+}
+.address {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #DBDBDB;
+}
+.paintList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.seeList a, .paintList a {
+    display: block;
+    margin-bottom: 20px;
+}
+.paintList a dl dd {
+    padding-left: 10px;
+}
+.proList > li dl dd:last-child, .paintList a dl dd:last-child {
+    color: #C10000;
+    font-size: 16px;
+}
+section h3 {
+    text-align: center;
+    margin: 35px 0;
+}

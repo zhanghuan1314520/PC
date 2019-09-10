@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 12px;
+   font-family: "Microsoft Yahei", Î¢ÈíÑÅºÚ, 'pingfang sc' , Simsun, Arial, sans-serif;
+    color: #262626;
+    background: #FFF;
+}
+.cart div.site {
+    height: 65px;
+    line-height: 65px;
+    font-size: 16px;
+}
+.cart div.site .top {
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+.table .tr:first-child {
+    display: flex;
+    text-align: center;
+}
+.table .tr:first-child {
+    display: flex;
+    text-align: center;
+}
+
+.cart div.site p a {
+    text-decoration: underline;
+}
+
+.table .tr {
+    height: 40px;
+    line-height: 40px;
+    background: #e9e9e9;
+    border-bottom: none;
+}
+.table .th div:nth-child(1), .table .tr:first-child div:nth-child(1) {
+    flex: 3;
+}
+.table .th div:nth-child(2), .table .tr:first-child div:nth-child(2) {
+    flex: 1;
+}
+.table .th div:nth-child(3), .table .tr:first-child div:nth-child(3) {
+    flex: 2;
+}
+.table .th div:nth-child(4), .table .tr:first-child div:nth-child(4) {
+    flex: 1;
+}
+.table .th div:nth-child(5), .table .tr:first-child div:nth-child(5) {
+    flex: 1;
+}
+.table .th {
+    display: flex;
+    height: 146px;
+    border-bottom: 1px dashed #dbdbdb;
+}
+.table label {
+    width: 16px;
+    height: 16px;
+    margin: 65px 17px 0 20px;
+    position: relative;
+}
+.fl {
+    float: left;
+}
+.table label input + span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../img/check.jpg);
+}
+.table .th .pro dl {
+    margin-top: 13px;
+}
+.table .th .pro dl dt {
+    margin-right: 13px;
+}
+.table .th .pro dl dd {
+    position: relative;
+    color: #777;
+    padding: 0 10px 10px;
+    border: 1px dashed #fff;
+}
+.table .th .pro dl dd p:nth-child(1) {
+    color: #262626;
+    line-height: 40px;
+}
+.table .th .pro dl dd p {
+    line-height: 20px;
+}
+.table .th .price {
+    line-height: 146px;
+}
+.table .th .number p {
+    width: 81px;
+    margin: 60px auto 0;
+}
+.table .th .number p span {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+.table .th a.del {
+    text-decoration: underline;
+    color: #262626;
+}
+.table .goOn {
+    height: 500px;
+    line-height: 500px;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    display: none;
+}
+.table .goOn a {
+    color: #C10000;
+    text-decoration: underline;
+}
+.table .tr {
+    height: 40px;
+    line-height: 40px;
+    background: #e9e9e9;
+    border-bottom: none;
+}
+.table .tr label {
+    margin: 13px 17px 0 20px;
+}
+.fr {
+    float: right;
+}
+.table .tr p:last-child span:first-child {
+    margin-right: 90px;
+}
+.table .tr p small {
+    color: #c10000;
+}
+.table .tr p:last-child a, .table .tr p:last-child span {
+    float: left;
+}
+.table .tr p:last-child a {
+    margin-left: 40px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    background: #8e8e8e;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #262626;
+}
+.table label input + span {
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../img/check.jpg);
+}
+.mt {
+    margin-top: 80px;
+}
